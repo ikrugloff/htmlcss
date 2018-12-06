@@ -6,3 +6,33 @@ ul li {
     padding:10px;
     border-right:1px solid white;
 }
+
+td.top_banners .preview {
+    height: 80px;
+    overflow: hidden;
+    display: block;
+    margin-top: 5px;
+}
+
+td.top_banners a {
+    text-decoration: none;
+    color: #FFAA13;
+}
+
+td.top_banners * {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+
+td.top_banners li {
+    float: left;
+    list-style-type: none;
+    height: 110px;
+    width: 250px;
+    padding: 5px 5px 2px 5px;
+    text-align: center;
+    margin-left: 12px;
+    font-weight: bold;
+    color: #000;
+    font-size: 11px;
+}
