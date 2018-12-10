@@ -36,3 +36,13 @@ td.top_banners li {
     color: #000;
     font-size: 11px;
 }
+
+body {
+    background-color: #8af830;
+}
+
+div.top_menu a {
+    font-style: normal;
+    font-weight: 700;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
