@@ -46,3 +46,33 @@ div.top_menu a {
     font-weight: 700;
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
+
+div.tech h3 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+div.description h3 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+tbody td {
+    color: #701565;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    background: white;
+}
+
+div.description p {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
