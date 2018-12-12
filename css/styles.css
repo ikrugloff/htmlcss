@@ -1,10 +1,14 @@
 ul li {
-    display:inline-block;
+    display: inline-block;
     background-color:#eee;
     list-style-type:none;
-    margin-right:-4px;
+    margin-right:-2px;
     padding:10px;
     border-right:1px solid white;
+}
+
+a:hover {
+    color: #1eff36;
 }
 
 td.top_banners .preview {
@@ -157,4 +161,24 @@ div.contact_form input[type=reset] {
 
 div.contact_form input[type=reset]:hover {
     background-color: #a00703;
+}
+
+.logo_image {
+    width: 80px;
+    height: 80px;
+}
+
+.logo_image img {
+    width: 100%;
+    height: auto;
+}
+
+input[type=email]:focus {
+    background-color: cornflowerblue;
+    font-weight: bolder;
+    color: #FFAA13;
+}
+
+input[type=text] {
+    text-transform: capitalize;
 }
