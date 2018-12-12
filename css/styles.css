@@ -82,7 +82,11 @@ div.description p {
 }
 
 div.image img {
-    border: 20px solid #701565;
+    outline: 10px solid #701565;
+}
+
+div.image img:hover {
+    outline: none;
 }
 
 div.contact_form {
