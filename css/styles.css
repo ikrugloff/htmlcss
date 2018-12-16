@@ -82,6 +82,7 @@ div.description p {
 }
 
 div.image img {
+    margin: 10px;
     outline: 10px solid #701565;
 }
 
@@ -185,4 +186,29 @@ input[type=email]:focus {
 
 input[type=text] {
     text-transform: capitalize;
+}
+
+.header {
+    border-bottom: 1px solid black;
+}
+
+.bottom {
+    border-top: 1px solid black;
+}
+
+.catalogue {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.catalogue a {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: auto;
+    font-size: 12px;
+    margin: 5px;
+
 }
