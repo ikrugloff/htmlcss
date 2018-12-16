@@ -185,21 +185,11 @@ input[type=text] {
 
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     height: 300px;
     background-color: #eeeeee;
     align-items: center;
     border-bottom: 1px solid #000000;
-}
-
-.menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 150px;
-    border: 1px solid #000000;
-    margin-right: 5px;
 }
 
 .logo {
@@ -208,9 +198,9 @@ input[type=text] {
     align-items: center;
     width: 150px;
     height: 150px;
+    position: relative;
     border: 1px solid #000000;
-    margin-right: 5px;
-
+    margin-left: 60px;
 }
 
 .logo img {
@@ -219,6 +209,21 @@ input[type=text] {
     height: 150px;
     width: auto;
 
+}
+
+.menu {
+    display: flex;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border: 1px solid #000000;
+    margin-left: 5px;
 }
 
 .bottom {
